@@ -40,7 +40,6 @@ Navigate to your workspace root and build the packages:
 cd /opt/ws
 colcon build --packages-select lab3 lab4
 source install/setup.bash
-ros2 launch lab3 bringup.launch.py
 Step 2: Launch the simulation
 Terminal 1: Start Gazebo, RViz, and the dead reckoning node:
 ros2 launch lab4 dead_reckoning_bringup.launch.py
